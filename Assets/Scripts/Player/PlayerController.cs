@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     bool moviendo = false;
     Vector2 input;
 
-    public Transform points;
+
 
     private void Start()
     {
@@ -41,10 +41,7 @@ public class PlayerController : MonoBehaviour
                 puntoMovimiento += input;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            Instantiate(points);
-        }
+
     }
     private void OnDrawGizmos()
     {
