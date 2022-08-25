@@ -6,21 +6,4 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
 
-    /*
-    
-    void Update()
-    {
-        
-    }
-
-    public void LoadNextLevel()
-    {
-        
-    }
-
-    IEnumerator LoadLevel(int levelIndex)
-    {
-        
-    }
-    */
 }
