@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class LevelSwitch : MonoBehaviour
 {
-    bool turnOn = false;
+    public bool turnOn = false;
     public GameObject objectToSwitch;
 
     SpriteRenderer spriteRenderer;
-    public bool deactivateToSwitch;
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -17,14 +16,14 @@ public class LevelSwitch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J) && turnOn)
         {
-            spriteRenderer.color = Color.red;
+            objectToSwitch.SetActive(false);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !turnOn)
+        if (collision.CompareTag("Player"))
         {
-
+            turnOn = true;
         }
     }
 }

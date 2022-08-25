@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public void Death()
     {
         GameOver = true;
+        LevelManager.instance.RespawnPlayer();
         Debug.Log("El juego ha terminado");
     }
 }
