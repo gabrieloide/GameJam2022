@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: a098bcfc8adc98a49947c048d030fb0c
+guid: 054f7958801b1074db71b9d1706eb5d4
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6420516211900325196
-    second: FireTrap_0
-  - first:
-      213: 2167500343187852549
-    second: FireTrap_1
-  - first:
-      213: 2021689510740483255
-    second: FireTrap_2
-  - first:
-      213: 1552343881494123127
-    second: FireTrap_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,12 +41,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,91 +89,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: FireTrap_0
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 22
-        width: 36
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4d94f43a714a1950800000000000000
-      internalID: 6420516211900325196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireTrap_1
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 22
-        width: 34
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50dcf360412841e10800000000000000
-      internalID: 2167500343187852549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireTrap_2
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 22
-        width: 34
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bcd1dd06eb7e0c10800000000000000
-      internalID: 2021689510740483255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireTrap_3
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 22
-        width: 40
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77255b919880b8510800000000000000
-      internalID: 1552343881494123127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

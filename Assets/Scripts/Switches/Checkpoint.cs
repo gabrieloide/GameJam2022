@@ -6,7 +6,6 @@ public class Checkpoint : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
 
-    #region OntriggerEnter
     public Sprite cpOn, cpOff;
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,7 +18,6 @@ public class Checkpoint : MonoBehaviour
 
         }
     }
-    #endregion
     public void ResetCheckpoint()
     {
         spriteRenderer.sprite = cpOff;

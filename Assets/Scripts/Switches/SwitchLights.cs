@@ -6,6 +6,7 @@ public class SwitchLights : MonoBehaviour
 {
     bool turnOn = false;
     SpriteRenderer spriteRenderer;
+    public Sprite TurnOn, TurnOff;
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -14,7 +15,8 @@ public class SwitchLights : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J) && turnOn)
         {
-            spriteRenderer.color = Color.red;
+            spriteRenderer.sprite = TurnOn;
+
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

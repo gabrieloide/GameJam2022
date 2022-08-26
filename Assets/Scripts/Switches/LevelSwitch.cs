@@ -8,6 +8,7 @@ public class LevelSwitch : MonoBehaviour
     public GameObject objectToSwitch;
 
     SpriteRenderer spriteRenderer;
+    public Sprite LeverOn, LeverOff;
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -16,6 +17,7 @@ public class LevelSwitch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J) && turnOn)
         {
+            spriteRenderer.sprite = LeverOn;
             objectToSwitch.SetActive(false);
         }
     }
