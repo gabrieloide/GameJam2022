@@ -9,7 +9,7 @@ public class ChangeLevel : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            MainMenu.instance.loadScene2();
+            
         }
     }
 }
