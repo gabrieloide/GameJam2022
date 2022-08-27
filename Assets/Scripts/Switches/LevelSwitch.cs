@@ -18,6 +18,7 @@ public class LevelSwitch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J) && turnOn)
         {
             spriteRenderer.sprite = LeverOn;
+            AudioManager.instance.PlaySoundDoor();
             objectToSwitch.SetActive(false);
         }
     }

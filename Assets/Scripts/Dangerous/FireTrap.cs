@@ -23,6 +23,7 @@ public class FireTrap : MonoBehaviour
             FireActivated.SetActive(false);
             yield return new WaitForSeconds(TimeDeactivated);
             FireActivated.SetActive(true);
+            AudioManager.instance.PlaySoundFire();
             yield return new WaitForSeconds(TimeDeactivated);
         }
     }

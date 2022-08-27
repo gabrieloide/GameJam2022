@@ -8,21 +8,17 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
+    public static LevelLoader instance;
     public Animator transition;
 
-
-    /*private void Update()
+    private void Awake()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (instance == null)
         {
-            LoadNextLevel();
+            instance = this;
         }
     }
 
-    public void LoadNextLevel()
-    {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
-    }*/
 
     public void load0()
     {
@@ -42,6 +38,10 @@ public class LevelLoader : MonoBehaviour
     {
         StartCoroutine(LoadLevel(3));
     }
+    public void LoadNextLevel()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
 
     IEnumerator LoadLevel(int levelIndex)
     {
@@ -49,7 +49,6 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(levelIndex);
     }
-
 
 
 }

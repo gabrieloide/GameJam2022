@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    
     public static MainMenu instance;
     public GameObject MenuPause;
     public bool IsPaused;
 
-    public int asd;
-
+    
     private void Awake()
     {
         if (instance = null)
@@ -49,4 +49,7 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+
+
 }

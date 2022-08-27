@@ -17,6 +17,7 @@ public class SwitchLights : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J) && turnOn)
         {
+            AudioManager.instance.PlaySoundCrystalBall();
             spriteRenderer.sprite = TurnOn;
             leverDeactivated.color = new Color(255, 255, 255, 255);
             TilemapDeactivated.SetActive(false);

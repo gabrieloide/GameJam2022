@@ -13,10 +13,6 @@ public class VolumeSettings : MonoBehaviour
     public Toggle muteMusic;
     public Toggle muteVFx;
     public AudioMixer mixer;
-    public AudioSource fxSource;
-    public AudioClip clickSound;
-    public AudioClip door;
-    
     private float lastVolume1;
     private float lastVolume2;
     private float lastVolume3;
@@ -125,13 +121,5 @@ public class VolumeSettings : MonoBehaviour
         PlayerPrefs.SetFloat("Efx", volValue3);
     }
 
-    public void PlaySoundButton()
-    {
-        fxSource.PlayOneShot(clickSound); 
-    }
-    public void PlaySoundDoor()
-    {
-        fxSource.PlayOneShot(door); 
-    }
 
 }
