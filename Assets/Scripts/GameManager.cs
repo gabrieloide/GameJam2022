@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    bool GameOver;
     private void Awake()
     {
         if (instance == null)
@@ -18,20 +17,8 @@ public class GameManager : MonoBehaviour
         }
 
     }
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Death()
     {
-        GameOver = true;
         LevelManager.instance.RespawnPlayer();
-        Debug.Log("El juego ha terminado");
     }
 }

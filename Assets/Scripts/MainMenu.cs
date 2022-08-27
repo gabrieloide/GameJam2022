@@ -28,9 +28,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
-
-    
-
     private void Awake()
     {
         if (instance = null)
