@@ -15,6 +15,7 @@ public class Checkpoint : MonoBehaviour
             CheckpointController.instance.DeactivateCheckpoints();
             FindObjectOfType<CameraController>().NextPosition = true;
             spriteRenderer.sprite = cpOn;
+            AudioManager.instance.PlaySoundCheckpoint();
             CheckpointController.instance.SetSpawnPoint(transform.position);
         }
     }

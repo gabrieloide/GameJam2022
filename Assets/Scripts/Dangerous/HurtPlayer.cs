@@ -9,6 +9,7 @@ public class HurtPlayer : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             GameManager.instance.Death();
+            AudioManager.instance.PlaySoundHurt();
         }
     }
 }

@@ -5,29 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    
     public static MainMenu instance;
     public GameObject MenuPause;
     public bool IsPaused;
 
-    public void loadScene1()
-    {
-        SceneManager.LoadScene("Chapter1");
-    }
-
-    public void loadScene2()
-    {
-        SceneManager.LoadScene("Chapter2");
-    }
-
-    public void loadScene3()
-    {
-        SceneManager.LoadScene("Chapter3");
-    }
-
-    public void loadMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
+    
     private void Awake()
     {
         if (instance = null)
@@ -66,4 +49,7 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+
+
 }

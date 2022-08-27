@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9133218624730552544}
-  - component: {fileID: 9133218624730552545}
-  - component: {fileID: 9133218624730552550}
-  - component: {fileID: 9133218624730552551}
+  - component: {fileID: 2986265827572696843}
+  - component: {fileID: 6720042164439794163}
+  - component: {fileID: 3388189609949865163}
   m_Layer: 0
   m_Name: GameMenuManager
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9133218624730552545
+--- !u!114 &2986265827572696843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,10 +42,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 9133218624730552547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dbeecbde20efab40adf406d8ca7b900, type: 3}
+  m_Script: {fileID: 11500000, guid: 55c13940f526c8548b0db8ccdbbd39f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &9133218624730552550
+  MenuPause: {fileID: 0}
+  IsPaused: 0
+--- !u!114 &6720042164439794163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,14 +56,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9133218624730552547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9df3819a64cf6f443bf8b12b3a87ffe3, type: 3}
+  m_Script: {fileID: 11500000, guid: 91f2d1f156dce6e4790dbd75dcd072b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 0}
   sliderValue: 0
   panelBrillo: {fileID: 0}
   toggle: {fileID: 0}
---- !u!114 &9133218624730552551
+--- !u!114 &3388189609949865163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,7 +72,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9133218624730552547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ed345be5e481d14b92cafb73a085d37, type: 3}
+  m_Script: {fileID: 11500000, guid: 072ee36ee9424cb4da8f6049dd023b4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   volume: {fileID: 0}
@@ -79,6 +81,4 @@ MonoBehaviour:
   muteAll: {fileID: 0}
   muteMusic: {fileID: 0}
   muteVFx: {fileID: 0}
-  mixer: {fileID: 24100000, guid: 3689a6adbf2f81347b261c805c84b306, type: 2}
-  fxSource: {fileID: 0}
-  clickSound: {fileID: 8300000, guid: b419aa01f2468434bb567a0d7f19158d, type: 3}
+  mixer: {fileID: 0}
