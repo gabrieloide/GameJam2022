@@ -17392,6 +17392,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1331368336}
     m_Modifications:
+    - target: {fileID: 4888674055841863696, guid: 1d3b411a3b8f0d241a247e3672345783, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4888674055841863698, guid: 1d3b411a3b8f0d241a247e3672345783, type: 3}
       propertyPath: m_Name
       value: PanelBrightness
@@ -25663,11 +25667,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2390432880144439122, guid: 6308f0592ace9394bb14d84e75f6b58b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.51
+      value: 3.04
       objectReference: {fileID: 0}
     - target: {fileID: 2390432880144439122, guid: 6308f0592ace9394bb14d84e75f6b58b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.91
+      value: 2.35
       objectReference: {fileID: 0}
     - target: {fileID: 2390432880144439122, guid: 6308f0592ace9394bb14d84e75f6b58b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25708,7 +25712,7 @@ PrefabInstance:
     - target: {fileID: 2390432880144439123, guid: 6308f0592ace9394bb14d84e75f6b58b, type: 3}
       propertyPath: TilemapDeactivated
       value: 
-      objectReference: {fileID: 528351698}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6308f0592ace9394bb14d84e75f6b58b, type: 3}
 --- !u!1001 &1558563692

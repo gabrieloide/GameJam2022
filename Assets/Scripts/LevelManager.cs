@@ -13,16 +13,6 @@ public class LevelManager : MonoBehaviour
             instance = this;
         }
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void RespawnPlayer()
     {
         StartCoroutine(RespawnCo());
