@@ -27,15 +27,19 @@ public class LevelLoader : MonoBehaviour
     }
     public void load1()
     {
+        //BlockFloors.instance.lvl2 = 
+        //PlayerPrefs.SetInt("lvl1", 0);
         StartCoroutine(LoadLevel(1));
     }
 
     public void load2()
     {
+        PlayerPrefs.SetInt("floo1", 0);
         StartCoroutine(LoadLevel(2));
     }
     public void load3()
     {
+        PlayerPrefs.SetInt("floo2", 0);
         StartCoroutine(LoadLevel(3));
     }
     public void LoadNextLevel()
